@@ -19,6 +19,7 @@ sass --watch sass/main.scss css/main.css
 
 ## Previews
 
+
 ### Desktops
 
 <img src="./images/desktop.png" width="800px">
@@ -26,3 +27,8 @@ sass --watch sass/main.scss css/main.css
 ### Mobile
 
 <img src="./images/mobile.png" width="290px">
+
+### Demo link
+
+https://ricardo-arana.github.io/plans-price-template/
+
