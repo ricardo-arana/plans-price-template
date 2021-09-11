@@ -1,0 +1,192 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px !important;
+  color: #373737;
+  font-size: 16px;
+  font-weight: 400;
+  height: 100vh;
+  background-color: #F5F5FA;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #373737;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+b {
+  font-weight: 700;
+}
+
+.text {
+  font-size: 14;
+  font-weight: 400;
+  line-height: 24px;
+}
+.text__bold {
+  font-weight: 700;
+}
+
+caption {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+button {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container .title {
+  width: 292px;
+}
+@media only screen and (min-width: 576px) {
+  .container .title {
+    margin-top: 4rem;
+    align-self: flex-start;
+    padding-left: 3rem;
+    width: 565px;
+  }
+  .container .title h1 {
+    font-size: 3.5rem;
+  }
+}
+.container .title p {
+  color: #848199;
+}
+.container .plans {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4rem;
+  align-self: center;
+}
+@media only screen and (min-width: 768px) {
+  .container .plans {
+    flex-direction: row;
+    border-radius: 26px !important;
+    background: linear-gradient(to top, #FFFFFF, transparent);
+  }
+}
+.container .plans .recommend {
+  order: 1 !important;
+  z-index: 1;
+  background-color: #FF8E3C !important;
+  background: url(../images/bg.svg) no-repeat right center;
+  box-shadow: 0px 25px 38px 0px #848199;
+  margin-bottom: 1.5rem;
+  margin-top: 0rem !important;
+  border-radius: 26px !important;
+}
+@media only screen and (min-width: 768px) {
+  .container .plans .recommend {
+    order: 2 !important;
+  }
+}
+.container .plans .recommend .popular {
+  display: flex;
+  align-items: center;
+  display: inherit;
+  align-self: flex-end;
+  background-color: #FFD5B6;
+  padding: 0.3rem 1rem;
+  border-radius: 13.5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.container .plans .recommend .gray, .container .plans .recommend span {
+  color: #373737 !important;
+}
+.container .plans .recommend button {
+  color: #FFFFFF !important;
+  background: #373737 !important;
+  font-weight: 700 !important;
+  min-height: 48px !important;
+  border-radius: 90px !important;
+  border: 0 !important;
+  font-size: 1.1rem !important;
+}
+.container .plans .recommend img {
+  filter: invert(100%) sepia(4%) saturate(5686%) hue-rotate(249deg) brightness(146%) contrast(100%);
+}
+.container .plans .plan {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  max-width: 292px;
+  min-width: 200px;
+  background-color: #FFFFFF;
+  margin-top: 2rem;
+  order: 2;
+  border-radius: 26px;
+}
+@media only screen and (min-width: 768px) {
+  .container .plans .plan {
+    border-radius: initial;
+  }
+  .container .plans .plan:first-child {
+    border-radius: 26px 0 0 26px;
+  }
+  .container .plans .plan:last-child {
+    border-radius: 0 26px 26px 0;
+  }
+}
+.container .plans .plan .price {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.container .plans .plan .price span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #848199;
+}
+.container .plans .plan button {
+  color: #FF8E3C;
+  background: rgba(255, 142, 60, 0.1);
+  font-weight: 700;
+  min-height: 48px;
+  border-radius: 90px;
+  border: 0;
+  font-size: 1.1rem;
+}
+
+.gray {
+  color: #848199;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0rem;
+}
+ul li {
+  margin-bottom: 1rem;
+}
+ul li.inactive {
+  opacity: 0.4;
+}
+ul img {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=main.css.map */
