@@ -72,12 +72,12 @@ button {
         @include phone(){
             margin-top: 4rem;
             align-self: flex-start;
-            padding-left: 3rem;
             width: 565px;
             h1 {
                 font-size: 3.5rem;
             }
         }
+        
         p {
             color: $gray;
             
